@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yup.me/projects/sitemap.xml
+Sitemap: https://yup.me/sitemap.xml
