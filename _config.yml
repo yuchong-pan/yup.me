@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yuchong's Un-Urban Projects # the website title (if blank, full name will be used instead)
-first_name: Yuchong
+title: yuchong's un-urban projects # the website title (if blank, full name will be used instead)
+first_name: yuchong
 middle_name:
-last_name: Pan
+last_name: pan
 email: panyuchong@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
