@@ -36,8 +36,6 @@ category: 2024
     </div>
 </div>
 
-后来回看照片，让我想到 Taylor 的一句歌词，
-
 > And I don't know why \
 > But with you I'd dance in a storm \
 > In my best dress \
