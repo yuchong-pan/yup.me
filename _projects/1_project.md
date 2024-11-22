@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: 卡塔丁
+img: assets/img/baxter_1.jpg
 importance: 1
-category: work
+category: mountains
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+卡塔丁一直在我的遗愿清单上。最开始知道卡塔丁可能是听树导说起阿巴拉契亚步道的终点，也读了张诺娅的《我想走去卡塔丁》。今年独立日，树导和定辉去爬了卡塔丁，可惜我那时在波兰没法和他们一起。偶然刷到了露营季的最后两天营地还有空位，就张罗起来了这趟行程。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+不过每次旅行都有意外。这次的意外是下雪。我们出发的当天，听说卡塔丁下了雪，从波士顿一路开到 Baxter State Park，不出意外地，护林员奶奶告诉我们卡塔丁所有的路线全部关闭了。这是十几年来卡塔丁封路最早的一次。很早就听说 Baxter 的护林员非常严格，这次也亲眼所见，护林员再三确认我们不会擅自攀登卡塔丁。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+另一个意外是下雨。山上下雪，山下就下雨。我是很讨厌下雨的，感觉做什么事情都很混乱无序。好在这次订了“极尽奢华”的 lean-to，是一种三面有墙一面开口的小木屋，可以挡风挡雨。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_2.jpg" title="lean-to" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+这是我的第一次汽车露营，也是第一次点篝火。和 June 两个人手忙脚乱从护林员那里买来了木头，尝试用前一天才从 REI 买的打火石来点火，结果自然是没有成功的。后来又手忙脚乱地用从 REI 买来的引火物，搞了半天终于是点上了。
+
+火真的是人类伟大的发现。我从未感到如此安全。虽然下着雨，但是火一点着，似乎心里对下雨就没那么抗拒了。前两天和 June 聊起来，发现自己都忘记那天头发全湿了，只剩下很快乐的体验。
+
+手忙脚乱烤了牛排、香肠，还有红薯。全部外焦里嫩，外面已经完全碳化了。但那个下雨的晚上，感觉从来没有吃过这么香的东西。
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/baxter_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/baxter_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+后来回看照片，让我想到 Taylor 的一句歌词，
+> And I don't know why
+> But with you I'd dance in a storm
+> In my best dress
+> Fearless
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/baxter_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/baxter_7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
