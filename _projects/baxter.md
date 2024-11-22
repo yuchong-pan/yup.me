@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 卡塔丁
+title: baxter
 img: assets/img/baxter_1.jpg
 importance: 1
-category: mountains
+category: 2024
 related_publications: true
 ---
 
