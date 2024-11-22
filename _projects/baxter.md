@@ -1,10 +1,9 @@
 ---
 layout: page
-title: baxter
+title: Baxter
 img: assets/img/baxter_1.jpg
 importance: 1
 category: 2024
-related_publications: true
 ---
 
 卡塔丁一直在我的遗愿清单上。最开始知道卡塔丁可能是听树导说起阿巴拉契亚步道的终点，也读了张诺娅的《我想走去卡塔丁》。今年独立日，树导和定辉去爬了卡塔丁，可惜我那时在波兰没法和他们一起。偶然刷到了露营季的最后两天营地还有空位，就张罗起来了这趟行程。
@@ -15,7 +14,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_2.jpg" title="lean-to" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -27,13 +26,13 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_3.jpg" title="bbq 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_3.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_4.jpg" title="bbq 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_4.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_5.jpg" title="bbq 3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_5.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -46,9 +45,9 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_6.jpg" title="bbq 4" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_6.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/baxter_7.jpg" title="bbq 5" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/baxter_7.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
