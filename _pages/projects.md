@@ -2,7 +2,6 @@
 layout: page
 title: yuchong's un-urban projects
 permalink: /
-description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
 display_categories: [2024]
